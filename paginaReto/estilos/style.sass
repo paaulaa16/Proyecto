@@ -1,0 +1,112 @@
+body
+    background: #98dbc6 !important
+/*estilo para el mapa*/
+#map
+    height: 450px
+    width: 75%
+    margin: auto
+
+/*estilo para los titulos*/
+h1
+    display: flex
+    justify-content: center
+    background: #c3a492
+    color: white
+    font-family: 'The Nautigal', cursive
+    font-size: 45px !important
+
+/*estilo para la raya*/
+hr
+    width: 30%
+    height: 4px !important
+    background: #2d7ac0 !important
+    margin: 0.5rem auto 0.5rem auto !important
+    opacity: 10 !important
+    margin-bottom: 1rem
+
+/*estilo para los titulos de cada elemento que hay en el html*/
+h3
+    text-align: center
+    font-size: 25px !important
+    border: solid white 2px
+    margin: 0 20rem
+
+/*estilos para las cards*/
+#paneles
+    display: flex
+    flex-wrap: wrap
+    margin: 2rem auto
+    width: 80%
+    align-items: center
+    justify-content: space-around
+
+.card
+    display: flex
+    flex-direction: column
+    background: #5bc8ac !important
+    border: solid white 4px !important
+    width: 20%
+    height: fit-content
+    padding: 1rem
+    margin: 1rem
+
+/*estilo para los elementos que se añaden al div de los paneles*/
+.elementos
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    margin: 2rem
+      
+
+.texto
+    background: #2d7ac0 !important
+    flex-direction: column
+    margin: 0 3rem
+    width: 12%
+    font-size: 18px
+    border: solid black 2px
+    text-align: center
+    color: white
+
+/*estilo para la imagen del basurero*/
+#imgBasura
+    width: 90px
+    height: 80px
+    background: white
+    border-radius: 10%
+
+#basurero
+    margin-top: 2%
+    display: flex
+    justify-content: center
+    margin-bottom: 2%
+
+@media only screen and (max-width: 600px)
+    #map
+        height: 300px
+        width: 90%
+        margin: auto
+    h1
+        font-size: 40px !important
+    h3
+        display: inline-block
+        width: 50%
+        margin: 1rem
+        margin-left: 8rem
+        
+
+    .texto
+        margin: 0 2rem
+        width: 25%
+    .card
+        
+        width: 95%
+        height: fit-content
+        padding: 1rem
+        margin: 1rem
+
+    #imgBasura
+        width: 75px
+        height: 70px
+        
